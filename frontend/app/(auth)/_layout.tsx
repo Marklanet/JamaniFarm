@@ -26,7 +26,7 @@ const AuthLayout: React.FC = () => {
       </Stack>
 
     
-      <StatusBar backgroundColor="#161622" style="light" />
+      <StatusBar backgroundColor="#f7fee7" style="dark" />
     </>
   );
 };

@@ -28,7 +28,7 @@ const CustomHeader: React.FC<CustomHeaderProps> = ({ pickImage, onHistoryPress }
           className="w-10 h-10 rounded-full mr-2"
         />
         <View>
-          <Text className="font-bold text-lg">Farm Rafiki</Text>
+          <Text className="font-bold text-lg">Jamani Help</Text>
           <Text className="text-sm text-secondary">Online</Text>
         </View>
       </View>

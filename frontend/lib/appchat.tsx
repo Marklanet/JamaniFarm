@@ -1,7 +1,7 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = 'http://192.168.1.73:5000/api/chats';
+const API_URL = 'http://192.168.3.107:5000/api/chats';
 
 // Fetch existing messages
 export const fetchCharts = async () => {

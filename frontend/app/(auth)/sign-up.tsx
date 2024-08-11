@@ -54,7 +54,7 @@ const SignUp: React.FC = () => {
           />
 
           <Text className="text-2xl font-semibold text-yellow-600 mt-10 font-psemibold">
-            Sign Up to Farm Shield
+            Sign Up to Jamani
           </Text>
 
           <FormField

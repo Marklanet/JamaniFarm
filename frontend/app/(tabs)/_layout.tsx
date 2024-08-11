@@ -77,7 +77,7 @@ const TabsLayout: React.FC = () => {
               <TabIcon
                 icon={icons.chat}
                 color={color}
-                name="Farm Rafiki"
+                name="Jamani Help"
                 focused={focused}
               />
             ),

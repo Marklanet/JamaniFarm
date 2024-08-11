@@ -21,7 +21,7 @@ interface FormState {
   soilMoisture: string;
   soilNPK: string;
   soilPH: string;
-  soilConductvity: string;
+  
 }
 
 const Home = () => {
@@ -40,7 +40,7 @@ const Home = () => {
     soilMoisture: '464',
     soilNPK: '12 38 31',
     soilPH: '5.81',
-    soilConductvity: '0.64',
+  
   });
 
   return (
@@ -52,7 +52,7 @@ const Home = () => {
       >
     
         <View className="flex flex-row flex-wrap justify-between px-2 pb-0 pt-4 mt-0">
-        <Text className="text-xl text-yellow-600 font-bold text-center w-4/6 mx-auto  bg-[#f7fee7] p-1 px-3  rounded-t-xl">View Your Farm Data</Text>
+        <Text className="text-xl text-yellow-600 font-bold text-center w-4/6 mx-auto  bg-[#f7fee7] p-1 px-3  rounded-t-xl">Welcome to Jamani</Text>
         </View>
       </ImageBackground>
         <Text className="text-lg mt-0 mx-2 mb-0 font-semibold text-black text-center "></Text>
@@ -148,13 +148,7 @@ const Home = () => {
             textStyles="mt-5"
             className='mb-5'
           />
-          <DataBox
-            title="Soil Conductivity"
-            value={farmData.soilConductvity}
-            icon={icons.conductivity}
-            textStyles="mt-5"
-            className='mb-5'
-          />
+   
           <DataBox
             title="Soil Moisture"
             value={farmData.soilMoisture}

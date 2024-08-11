@@ -56,7 +56,7 @@ const SignIn: React.FC = () => {
           />
 
           <Text className="text-2xl font-semibold text-yellow-600 mt-10 font-psemibold">
-            Log in to Farm Shield
+            Log in to Jamani
           </Text>
 
           <FormField

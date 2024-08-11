@@ -39,7 +39,7 @@ const Welcome: React.FC = () => {
             <Text className="text-3xl text-yellow-600 font-bold text-center">
               Grow Your Crops{'\n'}
             With{' '}
-              <Text className="text-secondary">Farm Shield™</Text>
+              <Text className="text-secondary">Jamani App</Text>
             </Text>
 
             <Image
@@ -50,8 +50,7 @@ const Welcome: React.FC = () => {
           </View>
 
           <Text className="text-sm font-pregular text-stone-700 mt-7 text-center">
-          FarmShield™ is the brain of the farm and 
-          Shields it from any adverse conditions.
+          Jamani™ is a farming companion that grows the crops along with farmers and helps them get maximum yields
           </Text>
 
           <CustomButton
@@ -63,7 +62,7 @@ const Welcome: React.FC = () => {
         </View>
       </ScrollView>
 
-      <StatusBar backgroundColor="#161622" style="light" />
+      <StatusBar backgroundColor="#f7fee7" style="dark" />
     </SafeAreaView>
   );
 };
