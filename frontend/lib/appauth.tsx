@@ -2,7 +2,7 @@ import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Define your API endpoint //192.168.3.107
-const API_URL = 'http://192.168.3.107:5000/api/auth'; // Replace with your server URL
+const API_URL = 'http://192.168.3.103:5000/api/auth'; // Replace with your server URL
 
 // Create user function
 export const registerUser = async (email: string, password: string, username: string) => {
